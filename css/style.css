@@ -3,44 +3,6 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*// @font-face {
-//     font-family: 'Fira Sans';
-//     src: url('../fonts/firasans/firasans.woff2') format('woff2'), url('../fonts/firasans/firasans.woff') format('woff'), url('../fonts/firasans/firasans.ttf') format('truetype');
-//     font-weight: 400;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'Fira Sans';
-//     src: url('../fonts/firasans/firasansmedium.woff2') format('woff2'), url('../fonts/firasans/firasansmedium.woff') format('woff'), url('../fonts/firasans/firasansmedium.ttf') format('truetype');
-//     font-weight: 500;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'PT Sans Caption';
-//     src: url('../fonts/ptsanscaption/ptsanscaption.woff2') format('woff2'), url('../fonts/ptsanscaption/ptsanscaption.woff') format('woff'), url('../fonts/ptsanscaption/ptsanscaption.ttf') format('truetype');
-//     font-weight: 400;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: 'PT Sans Caption';
-//     src: url('../fonts/ptsanscaption/ptsanscaptionbold.woff2') format('woff2'), url('../fonts/ptsanscaption/ptsanscaptionbold.woff') format('woff'), url('../fonts/ptsanscaption/ptsanscaptionbold.ttf') format('truetype');
-//     font-weight: 700;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: 'PT Serif Caption';
-//     src: url('../fonts/ptserifcaption/ptserifcaption.woff2') format('woff2'), url('../fonts/ptserifcaption/ptserifcaption.woff') format('woff'), url('../fonts/ptserifcaption/ptserifcaption.ttf') format('truetype');
-//     font-weight: 400;
-//     font-style: normal;
-// }
-// @font-face {
-//     font-family: 'PT Serif Caption';
-//     src: url('../fonts/ptserifcaption/ptserifcaptionitalic.woff2') format('woff2'), url('../fonts/ptserifcaption/ptserifcaptionitalic.woff') format('woff'), url('../fonts/ptserifcaption/ptserifcaptionitalic.ttf') format('truetype');
-//     font-weight: 400;
-//     font-style: italic;
-// }*/
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -1736,10 +1698,10 @@ body {
   padding-bottom: 32px;
 }
 .promo__date {
-  font-family: 'Fira Sans';
+  font-family: 'Lobster';
   font-size: 45px;
   color: #5f5b5b;
-  font-style: italic;
+  font-style: normal;
   text-align: center;
 }
 .promo__title {
@@ -1755,7 +1717,7 @@ body {
   font-size: 18px;
   color: #5f5b5b;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 29px;
 }
 .promo__schedule {
   text-align: center;
@@ -1786,12 +1748,12 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 auto;
-  padding-bottom: 54px;
+  padding-bottom: 24px;
 }
 .promo__events-item {
   width: 260px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 .promo__events-item iframe {
   margin-bottom: 10px;
@@ -1852,6 +1814,7 @@ body {
   margin-right: 2px;
 }
 .page-header {
+  padding: 0;
   margin: 0;
   border: 0;
 }
@@ -1898,7 +1861,7 @@ body {
   top: 33px;
 }
 .prize__inner {
-  padding: 60px 303px 43px 303px;
+  padding: 60px 303px 36px 303px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -1917,14 +1880,14 @@ body {
   text-align: center;
 }
 .prize__title {
-  padding: 10px 30px 20px 30px;
+  padding: 7px 30px 20px 30px;
   font-size: 28px;
   font-family: 'Fira Sans';
   color: #000000;
   font-weight: 500;
 }
 .prize__list-item {
-  padding-bottom: 20px;
+  padding-bottom: 23px;
 }
 .prize__list-item--close {
   display: none;
@@ -1963,6 +1926,7 @@ body {
 }
 .prize__list-more {
   cursor: pointer;
+  padding-top: 4px;
 }
 .prize__list-more-title {
   display: inline-block;
@@ -1977,6 +1941,7 @@ body {
 }
 .prize__list-turn {
   cursor: pointer;
+  padding-top: 4px;
 }
 .prize__list-turn--close {
   display: none;
@@ -2187,7 +2152,7 @@ body {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  margin: 14px 0 30px;
+  margin: 14px 0 0;
   padding: 0;
 }
 .page-footer__inner {
@@ -2227,7 +2192,7 @@ body {
   font-family: 'PT Serif Regular';
   line-height: 31px;
   color: #e02222;
-  padding-right: 65px;
+  padding-right: 55px;
   text-decoration: none;
 }
 .page-footer__feedback span {
