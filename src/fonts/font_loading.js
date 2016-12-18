@@ -104,3 +104,8 @@ loadFont(
    '/css/font_opensans_woff.css?v=1',   // откуда с сервака тянуть CSS с закодированным в base64 форматом WOFF
     '/css/font_opensans_woff2.css?v=1'   // откуда с сервака тянуть CSS с закодированным в base64 форматом WOFF2
   );
+loadFont(
+    'lobster_1.3regular',                      // название шрифта
+   '/css/font_opensans_woff.css?v=1',   // откуда с сервака тянуть CSS с закодированным в base64 форматом WOFF
+    '/css/font_opensans_woff2.css?v=1'   // откуда с сервака тянуть CSS с закодированным в base64 форматом WOFF2
+  );

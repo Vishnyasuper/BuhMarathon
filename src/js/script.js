@@ -1,37 +1,3 @@
-// $(document).ready(function(){
-
-//   //Промо на главной
-
-//   $("#promo").owlCarousel({
-//     items: 1,
-//     loop: true,
-
-//   });
-
-//   // Галерея на главной
-//   var gallery = $('#gallery');
-//   gallery.owlCarousel({
-//     items: 6,                 // одновременно 4 миниатюры
-//     loop: true,               // включаем петлю
-//     center: true,             // центрируем активную миниатюру
-//     mouseDrag: true,         // отключаем перетаскивание мышом
-//   });
-
-//   // Следим за изменением в галерее (смена активного слайда)
-//   gallery.on('changed.owl.carousel',function(property){
-//     var current = property.item.index;
-//     var src = gallery.find(".owl-item").eq(current).find("img").data('large-img-url');
-//     $('#gallery-large-img').attr('src', src );
-//   });
-
-//   // Следим за кликами на мириатюрах галереи
-//   $('#gallery img[data-large-img-url]').on('mousedown', function(){
-//     $('#gallery-large-img').attr('src', $(this).data('large-img-url') );
-//   });
-
-// });
-
-
  $(document).ready(function(){
  // Галерея
    var prize = $('#prize');
@@ -104,75 +70,13 @@
 
  });
 
-// $(document).ready(function(){
-
-//   var toggler = document.getElementById('toggler');
-// toggler.onclick = function(e){
-//   e.preventDefault();
-//   toggler.classList.toggle('main-nav__toggler--close');
-//   document.getElementById('nav').classList.toggle('main-nav__list--visible');
-// }
-
-
-//     function anchorScroll(boxAnchorLink){
-//         $(boxAnchorLink + ' a').on('click', function(e){
-//             e.preventDefault();
-//             var attr = $(this).attr('href').substring(1);
-//             var currentPosition = $(document).scrollTop();
-//             var idPosition = $('#'+attr).offset().top;
-//             var scrollTime = Math.abs(currentPosition - idPosition) / 3; // Math.abs - модуль числа.
-//             $('body,html').animate({'scrollTop':idPosition},scrollTime);
-//         });
-//     };
-
-
-//   anchorScroll('#to__menu');
-
-// });
-
-// // $(document).ready(function(){
-// // $('.page-footer').after().click(function() {
-// // alert('asdfahgdjkf');
-// // $('html, body').animate({
-// // scrollTop: 0
-// // }, 1000);
-// // });
-
-// // });
-
-// var t0, scrollTime;
-
-// $('#toTop').hide().on('click', function(event){
-//   event.preventDefault();
-//   scrollTime = $(document).scrollTop() / 2;
-//   $('body').animate({scrollTop:0}, scrollTime);
-// });
-
-// $(window).on('scroll', function(){
-//   clearTimeout(t0);
-//   t0 = setTimeout(function () {
-//       showScrollTopButton();
-//       console.log('scroll');
-//     }, 50);
-// });
-
-// showScrollTopButton();
-
-// function showScrollTopButton(){
-//   if ( $(document).scrollTop() >= 500 ) {
-//     $('#toTop').fadeIn();
-//   }
-//   else {
-//     $('#toTop').fadeOut();
-//   }
-// };
 
 $(document).ready(function(){
 var listTurn = $('.prize__list-turn');
 var listItem = $('.prize__list-item_turn');
 // сохранили в переменную ссылку на тег
 
-// по нажатию на первую ссылку убераем класс который прокруцивает слайд
+// по нажатию на первую ссылку убераем класс который прокручивает слайд
 $('#prize__list-turn').on('click', function(e) {
   e.preventDefault();
   listTurn.addClass('prize__list-turn--close');
@@ -183,7 +87,7 @@ $('#prize__list-turn').on('click', function(e) {
 var listMore = $('.prize__list-more');
 // сохранили в переменную ссылку на тег
 
-// по нажатию на первую ссылку убераем класс который прокруцивает слайд
+// по нажатию на первую ссылку убераем класс который прокручивает слайд
 $('#prize__list-more').on('click', function(e) {
   e.preventDefault();
   listMore.addClass('prize__list-more--close');

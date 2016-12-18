@@ -70,3 +70,11 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'lobster_1.3regular';
+    src: url('lobster_1.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
